@@ -1,0 +1,6 @@
+Describe  "a game where a player moves towards a goal"
+    Describe  "the moveRight direction"
+      It "should take coordinates"
+      It "should check if moving right puts a player off the board"
+      It "if moving right doesn't put the player off the board, then add one unit to y"
+      It "should not move player to the left, up, or down"
